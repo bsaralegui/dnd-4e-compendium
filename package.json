@@ -1,0 +1,31 @@
+{
+  "name": "dnd-4e-campaign",
+  "version": "1.0.0",
+  "description": "This is my attempt to make a GUI for the various SQL tables found for this D&D 4E Compendium Windows program: https://drive.google.com/drive/folders/1oyWQSdn5c2nC2AbmRDA5EIEoUWQEPJBS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsaralegui/dnd-4e-compendium.git"
+  },
+  "keywords": [
+    "D&D",
+    "Compendium",
+    "NodeJS"
+  ],
+  "author": "Benjamin Saralegui <bsaralegui@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bsaralegui/dnd-4e-compendium/issues"
+  },
+  "homepage": "https://github.com/bsaralegui/dnd-4e-compendium#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "jquery-colorbox": "^1.6.4",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "require": "^0.4.4"
+  }
+}
