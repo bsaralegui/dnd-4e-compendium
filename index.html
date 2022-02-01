@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>D&D 4E Compendium Search</title>
+  </head>
+  <body>
+    <label for="searchTerms">Search Terms To Filter By (does not need to be the full word and can comma separate to seach multiple terms at once)</label>
+    <input type="text" id="searchTerms" autofocus></input>
+
+    <label for="SearchType">Select Search Type</label>
+    <select id="SearchType" required>
+      <option disabled>Select Search Type</option>
+      <option value="Associate"> Associate</option>
+      <option value="Background">Background</option>
+      <option value="Class"> Class</option>
+      <option value="Companion"> Companion</option>
+      <option value="Deity"> Deity</option>
+      <option value="Disease"> Disease</option>
+      <option value="EpicDestiny"> EpicDestiny</option>
+      <option value="Feat">Feat</option>
+      <option value="GetFilterSelect"> GetFilterSelect</option>
+      <option value="Glossary">Glossary</option>
+      <option value="Item">Item</option>
+      <option value="Monster"> Monster</option>
+      <option value="ParagonPath"> ParagonPath</option>
+      <option value="Poison">Poison</option>
+      <option value="Power"> Power</option>
+      <option value="Race">Race</option>
+      <option value="Ritual">Ritual</option>
+      <option value="Skill"> Skill</option>
+      <option value="Terrain"> Terrain</option>
+      <option value="Theme"> Theme</option>
+      <option value="Trap">Trap</option>
+    </select>
+
+    <button type="button" id="searchButton">Search</button>
+    <p id="searchCount" style="display: none;"></p>
+    <nav><ul id="pagination" class="pagination" style="display: none;"></ul></nav>
+    <div id="results"></div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/front-end.js"></script>
+  </body>
+</html>
